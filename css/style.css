@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+html, body {
+  background-color: #3D3684;
+  font-family: Inknut+Antiqua;
+  color: #faebd7;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 25%;
+}
+
+a {
+  font-family: Inknut+Antiqua;
+  color: antiquewhite;
+  font-size: 48px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+h1:hover {
+  transform: scale(1.15);
+  transition: 1s ease-in-out; 
+}
+
+canvas {
+  display: block;
+}
