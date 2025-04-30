@@ -1,11 +1,11 @@
-var message = 'See: If you get far enough in \n You can see . . . \n';
+var message = 'But: in order to do that \n You have to have left \n The gravitational field \n Of \n Time and space';
 var index = 0;
 var lastMillis = 0;
 
 
 function setup() {
-	var canvas2 = createCanvas(800, 400);
-    canvas2.position(windowWidth/4, windowHeight/4);
+	var canvas2 = createCanvas(900, 600);
+    canvas2.position(windowWidth/5, windowHeight/6);
     textAlign(CENTER);
 	textSize(48);
 }

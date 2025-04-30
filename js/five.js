@@ -1,11 +1,11 @@
-var message = 'See: If you get far enough in \n You can see . . . \n';
+var message = "You can't think in";
 var index = 0;
 var lastMillis = 0;
 
 
 function setup() {
 	var canvas2 = createCanvas(800, 400);
-    canvas2.position(windowWidth/4, windowHeight/4);
+    canvas2.position(windowWidth/4, windowHeight/3);
     textAlign(CENTER);
 	textSize(48);
 }
