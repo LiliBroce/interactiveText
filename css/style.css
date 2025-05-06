@@ -184,3 +184,23 @@ canvas {
   transform: scale(1.15);
   transition: .5s ease-in-out; 
 }
+
+.star {
+  position: absolute;
+  z-index: 100;
+  top: 18%;
+  left: 48%;
+}
+
+.star:hover {
+  transform: scale(1.5);
+  transition: .5s ease-in-out; 
+}
+
+.finalText {
+  position: absolute;
+  z-index: 1000;
+  width: 75%;
+  margin: auto;
+
+}
