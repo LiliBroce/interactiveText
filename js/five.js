@@ -1,34 +1,21 @@
 var message = "You can't think in";
-var index = 0;
-var lastMillis = 0;
-
+var textDraw = "time & space";
 
 function setup() {
-	var canvas2 = createCanvas(800, 400);
-    canvas2.position(windowWidth/4, windowHeight/3);
-    textAlign(CENTER);
+	var canvas2 = createCanvas(1200, 600);
+    canvas2.position(windowWidth/8, windowHeight/6);
 	textSize(48);
+	background('#3D3684');
 }
 
 function draw() {
-    background('#3D3684');
-
     fill('#faebd7');
     textFont('Inknut Antiqua');
 
-	text(message.substring(0, index), 0, height/3, width, height);
-	
-	
-	if (millis() > lastMillis + 200) {
-		index = index + 1;
-		//ONE WORD AT A TIME
-		// while(message.charAt(index) != ' ' &&
-		// 		 index < message.length){
-		// 	index = index + 1;
-		// }
-		lastMillis = millis();
-	}
+	text(message, 400, 300, width, height);
 
+	textSize(16);
+	text(textDraw, mouseX, mouseY);
 }
 
 

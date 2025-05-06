@@ -33,17 +33,18 @@ a {
   left: 40%;
 }
 
+.curves {
+  width: 95vw;
+  height: 97vh;
+  z-index: 1000;
+}
+
 .bgimg {
   width: 95vw;
   height: 97vh; 
   z-index: -100;
 }
 
-.curves {
-  width: 95vw;
-  height: 97vh;
-  z-index: 1000;
-}
 
 .second {
   position: absolute;
@@ -57,13 +58,13 @@ a {
 
 .second:hover {
   transform: scale(1.15);
-  transition: 1s ease-in-out; 
+  transition: .5s ease-in-out; 
   color: #faebd7;
 }
 
 .center:hover {
   transform: scale(1.15);
-  transition: 1s ease-in-out; 
+  transition: .5s ease-in-out; 
 }
 
 canvas {
@@ -98,7 +99,7 @@ canvas {
 
 .third:hover {
   transform: scale(1.15);
-  transition: 1s ease-in-out; 
+  transition: .5s ease-in-out; 
   color: #faebd7;
 }
 
@@ -114,7 +115,7 @@ canvas {
 
 .four:hover {
   transform: scale(1.15);
-  transition: 1s ease-in-out; 
+  transition: .5s ease-in-out; 
   color: #faebd7;
 }
 
@@ -125,13 +126,13 @@ canvas {
   z-index: 100;
   top:50%;
   left: 48%;
-  color: #faebd7;
+  color: #3D3684;
 
 }
 
 .five:hover {
   transform: scale(1.15);
-  transition: 1s ease-in-out; 
+  transition: .5s ease-in-out; 
 }
 
 .any {
@@ -156,10 +157,30 @@ canvas {
 
 .any:hover {
   color: #faebd7;
-  transition: 1s ease-in-out; 
+  transition: .5s ease-in-out; 
 }
 
 .more:hover {
   color: #faebd7;
-  transition: 1s ease-in-out; 
+  transition: .5s ease-in-out; 
+}
+
+.window {
+  position: absolute;
+  z-index: 100;
+  top: 20%;
+  left: 35%;
+  color: #3D3684;
+}
+
+.eightText {
+  position: absolute;
+  z-index: 110;
+  top: 8%;
+  left: 25%;
+}
+
+.eightText:hover {
+  transform: scale(1.15);
+  transition: .5s ease-in-out; 
 }

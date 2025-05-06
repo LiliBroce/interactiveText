@@ -1,12 +1,11 @@
-var message = "You can't be in . . . your thoughts";
-var messageBig = "ANY MORE";
+var message = "You've got to be in the place\n where you see your own";
 var index = 0;
 var lastMillis = 0;
 
 
 function setup() {
 	var canvas2 = createCanvas(900, 600);
-    canvas2.position(windowWidth/5, windowHeight/3.5);
+    canvas2.position(windowWidth/5, windowHeight/6);
     textAlign(CENTER);
 	textSize(48);
 }
@@ -17,11 +16,8 @@ function draw() {
     fill('#faebd7');
     textFont('Inknut Antiqua');
 
-    textSize(140);
-	text(messageBig, 0, mouseX, width, height);
-
-    textSize(48);
 	text(message.substring(0, index), 0, height/3, width, height);
+	
 	
 	if (millis() > lastMillis + 200) {
 		index = index + 1;
